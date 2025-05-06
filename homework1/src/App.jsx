@@ -1,7 +1,11 @@
 import './App.css'
 import reactIcon from './assets/react.svg'
+import suma from './2jsx'
 
 function App() {
+  let a = 1
+  let b = 2
+  let c = a + b
   return (
     <>
       <h1>
@@ -10,7 +14,7 @@ function App() {
       <p>Ласкаво просимо до нашого сайту!</p>
       <img src={reactIcon} alt="react" />
       <a href="https://chatgpt.com/">Google</a>
-  
+      <p>Сума {a} + {b} = {c}</p>
     </>
   )
 }
