@@ -1,5 +1,3 @@
-function App() {
-  let a = 1
-  let b = 2
-  let c = a + b
+export default function Sum(a, b) {
+  return a + b;
 }
