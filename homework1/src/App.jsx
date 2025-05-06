@@ -1,8 +1,8 @@
 import './App.css'
 import reactIcon from './assets/react.svg'
-import suma from './2jsx'
+import suma from './Suma.jsx'
 
-function App() {
+function App(a, b, c) {
   let a = 1
   let b = 2
   let c = a + b
