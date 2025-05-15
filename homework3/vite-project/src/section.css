@@ -1,0 +1,11 @@
+.item{
+    width: 170px;
+    display: flex;
+    align-items: center;
+}
+.title{
+    text-align: center;
+}
+.stat-list{
+    display: flex;
+}

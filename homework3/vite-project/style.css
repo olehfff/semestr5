@@ -1,0 +1,17 @@
+.item{
+    width: 170px;
+    display: flex;
+    align-items: center;
+  flex-direction: column;
+}
+.title{
+    text-align: center;
+}
+.stat-list{
+    display: flex;
+    margin-left: 370px;
+}
+
+.label{
+    margin-bottom: 30px;
+}
