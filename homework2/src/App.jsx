@@ -1,4 +1,3 @@
-import React from 'react';
 import Greeting from './Greeting';
 import Message from './Message';
 
