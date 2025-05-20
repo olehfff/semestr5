@@ -1,17 +1,27 @@
+import styled from "styled-components";
 import RecipeInfo from "./RecipiesInfo";
 import PropTypes from "prop-types";
+const Title = styled.h1`
+font-size: 180px;`
+
 export default function Recipe({ recipe, icon }) {
     const { name, time, servings, calories, difficulty, image } = recipe;
 
     return (
       <>
-        <h1>Hello</h1>
+      <div className="recipe-container">
+       <div className="text">
+        <Title>Hello</Title>
         <p>{name}</p>
+        </div>
+        <div className="image">
         <img src={image} alt="image" width="300" />
+        </div>
         <RecipeInfo text={time} icon={icon.time} />
         <RecipeInfo text={servings} />
         <RecipeInfo text={calories} icon={icon.calories} />
         <RecipeInfo text={difficulty} />
+        </div>
       </>
     );
 }
