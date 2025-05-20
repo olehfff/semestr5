@@ -1,6 +1,6 @@
 import "./section.css"
 
-import Section from "./section.jsx"
+import Section from "./Section.jsx"
 
 function App() {
 
