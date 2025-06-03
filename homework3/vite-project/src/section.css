@@ -3,10 +3,19 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    background-color: yellow
 }
 .title{
     text-align: center;
 }
 .stat-list{
     display: flex;
+}
+
+.red{
+    background-color: red;
+}
+
+.test{
+    background-color: #00ff00;
 }

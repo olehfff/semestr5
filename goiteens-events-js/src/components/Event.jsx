@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import tasteBall from "./assets";
+import tasteBall from "../assets/taste-ball.jpg"; // Adjust the path as necessary
 
 const EventContainer = styled.div`
   display: flex;
@@ -22,12 +22,12 @@ color: grey;
 font-weight: 500;
 `
 
-export default function Event({tasteBall, name, location, speaker,type,start,end}) {
+export default function Event({name, location, speaker,type,start,end}) {
     return (
 
         <EventContainer className="event-container">
             <Title className="event-name">{name}</Title>
-            <img src="taste" alt="taste" /><Text className="event-location">Location: {location}</Text>
+            <img src={tasteBall} alt="taste" /> <Text className="event-location">Location: {location}</Text>
             <Text className="event-speaker">Speaker: {speaker}</Text>
             <Text className="event-type">Type: {type}</Text>
             <Text className="event-start">Start: {start}</Text>
