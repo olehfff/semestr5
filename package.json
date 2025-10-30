@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "nanoid": "^5.1.6"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
